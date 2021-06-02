@@ -1,0 +1,109 @@
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+color:blanchedalmond !important;
+}
+
+.custam-nav .custam-nav-item a{
+    color : #fff !important;
+}
+
+.custam-nav-item:hover{
+    background-color: rgb(236, 192, 125) ;
+    color: black !important;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.img-prt{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(182, 167, 167);
+    margin: auto;
+    text-shadow: #009688;
+    font-family: cursive;
+}
+.rm-img-prt{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position: relative;
+}
+.vid-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.vid-cont{
+    position: absolute;
+    z-index: 2;
+    top:35%;
+    left: 35%;
+    text-align: center;
+    color: black;
+}
+.bottom-banner{
+    color: blanchedalmond;
+    padding: 10px;
+}
+.stripe{
+    background-image: linear-gradient(240deg, #ed213a, #93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index: -5;
+}
+
+a.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: rgb(95, 93, 93);
+}
+a:link {
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .my-cont,
+    .txt-banner{
+        display: none;
+    }
+    .vid-cont{
+        top: 10%;
+        left: 60%
+    }
+    .custam-nav .custam-nav-item a{
+        padding: 10px;
+        background-color: rgb(64, 64, 97);
+        
+    }
+
+    .custam-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+
+    }
+}
